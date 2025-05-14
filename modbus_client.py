@@ -1,7 +1,7 @@
 from pymodbus.client import ModbusTcpClient
 import time
 
-client = ModbusTcpClient("192.168.195.129", port=502)
+client = ModbusTcpClient("192.168.195.129", port=502) #ip address of kali 2 
 client.connect()
 
 while True:
